@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <!-- mega tag-->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Kelompok 5">
+        <meta name="description" content="Website Sanggar Kemasan Surakarta">
+        <!-- mega tag-->
+
+        <!-- favicon-->
+        <link rel="shortcut icon" href="assets/img/dancer.png">
+        <!-- favicon-->
+
+        <!-- title -->
+            <title>Sanggar Seni Kemasan</title>
+        <!-- title -->
+
+        <!--style-css files-->
+            <link rel="stylesheet" type="text/css" href="assets/style/style-global.css">
+            <link rel="stylesheet" type="text/css" href="assets/style/style-index.css">
+        <!--style-css files-->
+
+        <!--fontawesome css files-->
+            <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+        <!--fontawesome css files-->
+
+        <!--javascript files-->
+            <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+            <script src="assets/js/custom.js"></script>
+        <!--javascript files-->
+
+        <!--font files-->
+            <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Spectral+SC" rel="stylesheet">
+        <!--font files-->
+
+        <!--popper-->
+            <script src="assets/bootstrap/assets/js/vendor/popper.min.js"></script>
+        <!--popper-->
+
+        <!--bootstrap css files-->
+            <link rel="stylesheet" type="text/css" href="assets/bootstrap/dist/css/bootstrap.min.css">
+        <!--bootstrap css files-->
+
+        <!--bootstrap js files-->
+            <script type="text/javascript" src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--bootstrap js files-->
+    </head>
+    <body>
+        <div id="loading-screen" class="text-center">
+            <div id="box">
+                <div id="circle">
+                </div>
+                <img style="max-width:150px; min-width:100px;" id="logo" src="assets/img/Double%20Ring.svg">
+                <br>
+                <br>
+                <br>
+                <p class="text-center">SANGGAR KEMASAN</p>
+            </div>
+        </div>
+
+        <!--Loading Screen-->
+        <script>
+        $('html, body').scrollTop(0);
+        $('body').css({'overflowY':'hidden'});
+
+        $(document).ready(function(){
+            $('#loading-screen').delay(1000).fadeOut(750);
+            $('body').css({'overflowY':'auto'});
+        });
+        </script>
+        <!--Loading Screen-->
+
+        <div class="container-fluid welcome-page">
+        <!--navbar-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand color-white" href="#">SK</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="galeri.html">GALERI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="kegiatan.html">KEGIATAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="tentang.html">TENTANG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="kontak.html">KONTAK</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--navbar-->
+        <h1 class="text-center color-yellow title">Sanggar Seni Kemasan</h1>
+        <h4 class="text-center color-white title">selamat datang di website sanggar seni kemasan surakarta</h4>
+        <br/><br/><br>
+        <div class="text-center button-selengkapnya">
+        <a href="#intropage" class="" id="button">selengkapnya</a>
+        </div>
+        </div>
+        <!--Scroll to-->
+        <script>
+        $("#button").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#intropage").offset().top
+            }, 1500);
+        });
+        </script>
+        <!--Scroll to-->
+
+        <div class="container sanggar-content" id="intropage">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/img/pic2.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-8" id="tentang">
+                    <h2>Tentang Kami</h2>
+                    <hr class="line">
+                    <p class="text-visible"><b>Sanggar Seni Kemasan</b> adalah suatu komunitas seni di surakarta, dimana di sanggar ini kita berlatih tentang kesenian daerah. Diantaranya adalah Teater tradisional, Teater Modern, Tari, Fotografi ataupun Jurnalistik, Musik dan lain lain.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid sanggar-services">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="window">
+                            <span class="fa fa-gitlab fa-3x"></span>
+                            <hr class="lines">
+                            <h3>Seni Teater</h3>
+                            <p align="justify">kami mengajak kamu belajar bersama tentang bagaimana menampilan seni teater yang baik dan menyenangkan di Sanggar Seni Kemasan</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="window">
+                            <span class="fa fa-sign-language fa-3x"></span>
+                            <hr class="lines">
+                            <h3>Seni Tari</h3>
+                            <p align="justify">kami mengajak kamu belajar bersama tentang bagaimana menampilan seni tari yang baik dan menyenangkan di Sanggar Seni Kemasan</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="window">
+                            <span class="fa fa-camera-retro fa-3x"></span>
+                            <hr class="lines">
+                            <h3>Fotografi</h3>
+                            <p align="justify">kami mengajak kamu belajar bersama tentang bagaimana menampilan fotografi yang baik dan menyenangkan di Sanggar Seni Kemasan</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="window">
+                            <span class="fa fa-pencil fa-3x"></span>
+                            <hr class="lines">
+                            <h3>Jurnalistik</h3>
+                            <p align="justify">kami mengajak kamu belajar bersama tentang bagaimana menampilan jurnalistik yang baik dan menyenangkan di Sanggar Seni Kemasan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container gallery text-center">
+            <br>
+            <h2>Galeri Kami</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-4" text-center>
+                    <img src="assets/img/gal1.jpg" class="img-fluid">
+                    <a href=""></a>
+                </div>
+                <div class="col-md-4" text-center>
+                    <img src="assets/img/gal2.jpg" class="img-fluid">
+                    <a href=""></a>
+                </div>
+                <div class="col-md-4" text-center>
+                    <img src="assets/img/gal3.jpg" class="img-fluid">
+                    <a href=""></a>
+                </div>
+            </div>
+            <br><br><br>
+            <a href="galeri.html" id="button2">selengkapnya</a>
+            <br><br><br><br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <footer class="bg-color-brown color-white">
+            <br>
+                <div class="text-center text">SANGGAR SENI KEMASAN SURAKARTA 2017&copy;</div>
+            <br>
+        </footer>
+    </body>
+</html>

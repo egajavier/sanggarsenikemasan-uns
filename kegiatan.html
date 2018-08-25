@@ -1,0 +1,305 @@
+<html>
+    <head>
+        <!-- mega tag-->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Kelompok 5">
+        <meta name="description" content="Website Sanggar Kemasan Surakarta">
+        <!-- mega tag-->
+        
+        <!-- favicon-->
+        <link rel="shortcut icon" href="assets/img/dancer.png">
+        <!-- favicon-->
+
+        <!-- title -->
+            <title>Sanggar Seni Kemasan</title>
+        <!-- title -->
+
+        <!--style-css files-->
+            <link rel="stylesheet" type="text/css" href="assets/style/style-global.css">
+            <link rel="stylesheet" type="text/css" href="assets/style/style-index.css">
+        <!--style-css files-->
+
+        <!--fontawesome css files-->
+            <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+        <!--fontawesome css files-->
+
+        <!--javascript files-->
+            <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+        <!--javascript files-->
+
+        <!--font files-->
+            <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Spectral+SC" rel="stylesheet">
+        <!--font files-->
+
+        <!--popper-->
+            <script src="assets/bootstrap/assets/js/vendor/popper.min.js"></script>
+        <!--popper-->
+
+        <!--bootstrap css files-->
+            <link rel="stylesheet" type="text/css" href="assets/bootstrap/dist/css/bootstrap.min.css">
+        <!--bootstrap css files-->
+
+        <!--bootstrap js files-->
+            <script type="text/javascript" src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--bootstrap js files-->
+    </head>
+    <body>
+        <div id="loading-screen" class="text-center">
+            <div id="box">
+                <div id="circle">
+                </div>
+                <img style="max-width:150px; min-width:100px;" id="logo" src="assets/img/Double%20Ring.svg">
+                <br>
+                <br>
+                <br>
+                <p class="text-center">SANGGAR KEMASAN</p>
+            </div>
+        </div>
+        
+        
+        <script>
+        $('html, body').scrollTop(0);
+        $('body').css({'overflowY':'hidden'});
+
+        $(document).ready(function(){
+            $('#loading-screen').delay(1000).fadeOut(750);
+            $('body').css({'overflowY':'auto'});
+        });
+        </script>
+        
+        <div class="container-fluid bg-color-brown">
+        <!--navbar-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand color-white" href="#">SK</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="galeri.html">GALERI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="kegiatan.html">KEGIATAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="tentang.html">TENTANG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-white" href="kontak.html">KONTAK</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--navbar-->
+        </div>
+        
+        <div class="container kegiatan">
+            <br>
+            <h2 class="text-center">Kegiatan Kami</h2>
+            <hr class="line-galeri">
+            <br>
+            <div class="row">
+               <div class="col-md-8">
+                <!--
+                <div class="col-md-12">
+                    <span class="fa fa-user-circle-o fa-4x"></span>
+                    <p>Bambang Sugiarto</p>
+                    <p><i>Pendiri</i></p>
+                   </div>
+                   
+                   <br>
+                   
+                   <div class="row">
+                        <div class="col-md-4">
+                            <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Dr. Trisno Santoso</p>
+                            <p><i>Penasehat</i></p>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Bejo Mulyono S.Sn</p>
+                            <p><i>Penasehat</i></p>
+                       </div>
+                        <div class="col-md-4">
+                            <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Budi Bodhot S.Sos</p>
+                            <p><i>Penasehat</i></p>
+                       </div>
+                    </div>
+                   
+                   <br>
+                   
+                   <div class="row">
+                        <div class="col-md-6">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Tarjo W Kusumo S.Sn</p>
+                            <p><i>Ketua</i></p>
+                       </div>
+                        <div class="col-md-6">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Fery Ma'ul Ardy</p>
+                            <p><i>Wakil Ketua</i></p>
+                       </div>
+                    </div>
+                   
+                   <br>
+                   
+                   <div class="row">
+                        <div class="col-md-3">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Ardika Satria Permana</p>
+                            <p><i>Sekretaris</i></p>
+                       </div>
+                        <div class="col-md-3">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Tiara Arum Sari</p>
+                            <p><i>Bendahara</i></p>
+                       </div>
+                        <div class="col-md-3">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Akro Kilat</p>
+                            <p><i>Seksi Latihan</i></p>
+                       </div>
+                        <div class="col-md-3">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>M. Sinung A J</p>
+                            <p><i>Seksi Publikasi</i></p>
+                       </div>
+                       
+                       <div class="col-md-3">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Agam Nata Widjaya</p>
+                            <p><i>Humas</i></p>
+                       </div>
+                        <div class="col-md-3">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Mas Budi</p>
+                            <p><i>Seksi Dokumentasi</i></p>
+                       </div>
+                        <div class="col-md-3">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Pak Bowo</p>
+                            <p><i>Seksi Rumah Tangga</i></p>
+                       </div>
+                        <div class="col-md-3">
+                        <span class="fa fa-user-circle-o fa-4x"></span>
+                            <p>Laksamana Adi Satria</p>
+                            <p><i>Pengurus</i></p>
+                       </div>
+                    </div>
+                -->
+                   
+                <div class="window-organisasi">
+                    <h5>Kepengurusan</h5>
+                    <hr class="line">
+                    <table>
+                        <tr>
+                            <td><b>Pendiri</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Bambang Sugiarto</td>
+                        </tr>
+                        <tr>
+                            <td><b>Penasehat</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Dr. Trisno Santoso</td>
+                        </tr>
+                        <tr>
+                            <td><b>Penasehat</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Bejo Mulyono</td>
+                        </tr>
+                        <tr>
+                            <td><b>Penasehat</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Budi Bodhot</td>
+                        </tr>
+                        <tr>
+                            <td><b>Ketua</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Tarjo W Kusumo S.Sn</td>
+                        </tr>
+                        <tr>
+                            <td><b>Wakil Ketua</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Fery Ma'ul Ardy</td>
+                        </tr>
+                        <tr>
+                            <td><b>Sekretaris</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Ardika Satria Permana Putra</td>
+                        </tr>
+                        <tr>
+                            <td><b>Bendahara</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Tiara Arum Sari</td>
+                        </tr>
+                        <tr>
+                            <td><b>Seksi Latihan</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Arko Kilat</td>
+                        </tr>
+                        <tr>
+                            <td><b>Seksi Publikasi</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>M. Sinung A J</td>
+                        </tr>
+                        <tr>
+                            <td><b>Humas</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Agam Nata Widjaya</td>
+                        </tr>
+                        <tr>
+                            <td><b>Seksi Dokumentasi</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Mas Budi</td>
+                        </tr>
+                        <tr>
+                            <td><b>Seksi Rumah Tangga</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Pak Bowo</td>
+                        </tr>
+                        <tr>
+                            <td><b>Pengurus Harian</b></td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Laksamana Abdi Satria</td>
+                        </tr>
+                    </table>
+                   </div>
+               </div>
+               <div class="col-md-4">
+                <div class="window-acara">
+                    <h5>Acara Kami</h5>
+                    <hr class="line">
+                    <p>Duta Seni Pelajar Banten 2013</p>
+                    <p>Festival Seni Daerah TMII 2013</p>
+                    <p>Festival Kreativitas Seni Daerah Tingkat Keresidenan Surakarta</p>
+                   </div>
+                   <br>
+                   <br>
+                <div class="window-prestasi">
+                   <h5>Prestasi Kami</h5>
+                    <hr class="line">
+                    <p><b>Juara 1</b> Modern Dance Festival Inbox SCTV</p>
+                    <p><b>Terbaik</b> Penaskahan Tingkat Nasional</p>
+                    <p><b>Juara 1</b> Festival Kreativitas Seni Daerah TINK, Keresidenan Surakarta</p>
+                   </div> 
+               </div>
+            </div>
+            <br><br><br><br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <footer class="bg-color-brown color-white">
+            <br>
+                <div class="text-center text">SANGGAR SENI KEMASAN SURAKARTA 2017&copy;</div>
+            <br>
+        </footer>
+    </body>
+</html>

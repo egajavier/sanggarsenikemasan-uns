@@ -1,0 +1,125 @@
+
+/* COLORS */
+:root{
+    --color-brown           : #36282B;
+    --color-maroon          : #803A3B;
+    --color-yellow          : #CEA467;
+    --color-softbrown       : #B7A88F;  
+    --color-softwhite       : #E0E2D5;
+    --color-softblack       : #2F2F2F;
+    --color-white           : #FFFFFF;
+    --color-grey            : #b2b2b2;
+}
+/* COLORS */
+
+/* CLASSES COLOR*/
+
+    .color-brown            {color: var(--color-brown) !important}        
+    .color-maroon           {color: var(--color-maroon) !important}
+    .color-yellow           {color: var(--color-yellow) !important}
+    .color-softbrown        {color: var(--color-softbrown) !important}
+    .color-softwhite        {color: var(--color-softwhite) !important}
+    .color-softblack        {color: var(--color-softblack) !important}
+    .color-white            {color: var(--color-white) !important}
+    .color-grey             {color: var(--color-grey) !important}
+
+/* CLASSES COLOR*/
+
+/* CLASSES BAVKGROUND-COLOR*/
+
+    .bg-color-brown            {background-color: var(--color-brown) !important}        
+    .bg-color-maroon           {background-color: var(--color-maroon) !important}
+    .bg-color-yellow           {background-color: var(--color-yellow) !important}
+    .bg-color-softbrown        {background-color: var(--color-softbrown) !important}
+    .bg-color-softwhite        {background-color: var(--color-softwhite) !important}
+    .bg-color-softblack        {background-color: var(--color-softblack) !important}
+    .bg-color-white            {background-color: var(--color-white) !important}
+
+/* CLASSES BACKGROUND-COLOR*/
+
+/* TEXT */
+h1{
+    font-family: Spectral SC !important;
+    font-size: 50px !important
+}
+
+h2{
+    font-family: Spectral SC !important;
+    font-size: 30px !important;
+}
+
+h3{
+    font-family: Spectral SC !important;
+}
+
+h4{
+    font-family: Bree serif !important;
+}
+
+h5{
+    font-family: Spectral SC !important;
+}
+/* TEXT */
+
+/* HR */
+hr.line{
+    width: 5% ;
+    border: 2px solid #2F2F2F;
+}
+
+hr.line-galeri{
+}
+
+/* HR */
+
+/* BACKGROUND-IMAGE CUBE */
+.bg-img-cube{
+    background-image: url(../img/cubes.png);
+}    
+/* BACKGROUND-IMAGE CUBE */
+
+/* CALL FONTS
+
+font-family: 'Spectral SC', serif;
+font-family: 'Bree Serif', serif;
+
+*/
+
+/*SCROLL BAR*/
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+    background: #666;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #232323;
+}
+
+button.navbar-toggler{
+    background-color: white;
+}
+
+/*Loading Screen*/
+#loading-screen{
+	margin:0;
+	padding: 0;
+	position: fixed;
+	z-index: 9999;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#loading-screen p{
+    font-family: Spectral SC;
+    font-size: 20px;
+}

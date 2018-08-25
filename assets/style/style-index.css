@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav.navbar{
+    background-color: transparent;
+    transition: 0.5s ease;
+}
+
+nav.navbar a:hover{
+    background-color: #CEA467;
+    transition: 0.5s ease;
+    color: #36282B;
+}
+
+.welcome-page{
+    background-image: url(../img/bg1.jpeg);
+    height: 768px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+button.navbar-toggler{
+    background-color: white;
+}
+
+h1.title{
+    padding-top: 200px;
+    font-size: 70px !important;  
+    letter-spacing: 2px;
+}
+
+h4.title{
+    letter-spacing: 2px;
+}
+
+a#button{
+    border: 5px solid #CEA467;
+    text-align: center;
+    padding: 10px;
+    background-color: #CEA467;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    color: #2f2f2f;
+    transition: 0.5s ease;
+}
+
+a#button:hover{
+    border: 5px solid #af8549;
+    background-color: #af8549;
+    text-decoration: none;
+    color: #2f2f2f;
+    transition: 0.5s ease;
+}
+
+a.nav-link:hover{
+    color: yellow;
+}
+
+.sanggar-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+hr.line{
+    width: 10% ;
+    border: 2px solid #B7A88F;
+}
+
+hr.lines{
+    width: 20% ;
+    border: 2px solid #B7A88F;
+}
+
+.sanggar-content p{
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #605f5f;
+}
+
+.sanggar-services{
+    background-image: url(../img/bg2.png);
+    
+}
+
+.sanggar-services{
+    letter-spacing: 1px;
+}
+
+.window{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+a#button2{
+    border: 3px solid #CEA467;
+    text-align: center;
+    padding: 7px;
+    background-color: #CEA467;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    color: #2f2f2f;
+    transition: 0.5s ease;
+}
+
+a#button2:hover{
+    border: 3px solid #af8549;
+    background-color: #af8549;
+    text-decoration: none;
+    color: #2f2f2f;
+    transition: 0.5s ease;
+}
+
+footer .text{
+    letter-spacing: 2px;
+}
+
+/*kontak*/
+
+a{
+    color: #2f2f2f !important;
+}
+
+.window-s{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+/*Kegiatan*/
+table tr{
+    padding: 10px;
+}
